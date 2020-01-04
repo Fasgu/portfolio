@@ -7,34 +7,11 @@
       </div>
     </header>
     <div id="tab-container" class="tab-container" data-easytabs="true">
-      <ul class="etabs">
-        <li class="tab active" id="tab-about">
-          <a href="#about" class="active">
-            <i class="icon-user"></i>
-              <span>Acerca de Mi</span>
-          </a>
-        </li>
-        <li class="tab">
-          <a href="#resume" class="">
-            <i class="icon-file-text"></i>
-            <span>Habilidades</span>
-          </a>
-        </li>
-        <li class="tab">
-          <a href="#portfolio" class="">
-            <i class="icon-heart"></i>
-            <span>Experiencia</span>
-          </a>
-        </li>
-        <li class="tab">
-          <a href="#contact" class="">
-            <i class="icon-envelope"></i>
-            <span>Proyectos</span>
-          </a>
-        </li>
-      </ul>
-      <div id="tab-data-wrap">
-      </div>
+      <app-tab></app-tab>
     </div>
+    <div id="tab-data-wrap">
+      <router-outlet></router-outlet>
+    </div>
+
   </div>
 </div>
