@@ -8,13 +8,15 @@
 
 .info h4, #header h4{
   color: #59BD85;
+  color: #03a9f4;
   margin-bottom: 2em;
 }
-.info h6, #header h6{
+.info h1, #header h1{
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: .3em;
   color: #fff;
+  font-size: 25px;
 }
 
 #tab-data-wrap{
@@ -22,6 +24,7 @@
   background: #fff;
   border: 1px solid #f1f1f1;
   box-shadow: 0px 6px #2E8B57;
+  box-shadow: 0px 6px #2196f3;
   border-radius: 0px 0px 4px 4px;
 }
 

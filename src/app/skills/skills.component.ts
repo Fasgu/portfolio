@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SKILLS } from '../mock-skills';
 
 @Component({
   selector: 'app-skills',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkillsComponent implements OnInit {
 
+  // skills = SKILLS;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  getSkills(type) {
+    return SKILLS.filter(element => {
+      return element.type === type;
+    });
   }
 
 }

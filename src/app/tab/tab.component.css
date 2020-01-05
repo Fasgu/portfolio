@@ -45,6 +45,7 @@
 .tab a.active {
   padding-top: 10px;
   color: #2E8B57;
+  color: #2196f3;
 }
 .tab a i{
   font-size: 16px;
