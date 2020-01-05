@@ -1,1 +1,15 @@
-<p>experience works!</p>
+<section class="clearfix">
+  <div class="row">
+    <ul class="timeline">
+      <li *ngFor="let experience of experiences">
+        <div [class]="isPar(experience.id) ? 'direction-l':'direction-r'">
+          <div class="flag-wrapper">
+            <span class="flag">{{experience.position}}</span>
+            <span class="time-wrapper"><span class="time">{{experience.period}}</span></span>
+          </div>
+          <div class="desc">{{experience.description}}</div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>

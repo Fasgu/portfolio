@@ -8,8 +8,6 @@ import { SKILLS } from '../mock-skills';
 })
 export class SkillsComponent implements OnInit {
 
-  // skills = SKILLS;
-
   constructor() { }
 
   ngOnInit() {
