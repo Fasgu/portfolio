@@ -1,1 +1,21 @@
-<p>projects works!</p>
+<section class="clearfix">
+  <div class="row justify-content-center">
+    <div class="col-md-12">
+      <ul class="cards">
+        <li class="cards__item" *ngFor="let project of projects">
+          <div class="card">
+            <div class="card__image" [style.background-image]="'url(./assets/images/projects/' + project.image + ')'"></div>
+            <div class="card__content">
+              <div class="card__title">{{project.name}}</div>
+              <p class="card__text">
+                {{project.description}}
+              </p>
+              <span class="text-right text-rol">{{project.rol}}</span>
+              <!-- <button class="btn btn--block card__btn">Ver más</button> -->
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>

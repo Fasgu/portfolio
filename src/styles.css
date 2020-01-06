@@ -1,4 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
 .bg-1{
   background-image: url('./assets/images/bg8.jpg');
 }
@@ -35,4 +37,5 @@ a {
   -o-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
   transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear, background-color 0.1s linear;
 }
+
 a:hover, a:focus, a:active { text-decoration: none; border: none;color: #2196f3; }
