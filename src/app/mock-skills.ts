@@ -43,7 +43,7 @@ export const SKILLS: Skill[] = [
   },
   {
     name: 'Android',
-    value: 50,
+    value: 30,
     type: 3
   },
   {
