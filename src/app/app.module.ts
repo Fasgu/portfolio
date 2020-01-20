@@ -11,7 +11,6 @@ import { TabComponent } from './tab/tab.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ProjectsComponent } from './projects/projects.component';
-import { MetadataComponent } from './metadata/metadata.component';
 
 @NgModule({
   declarations: [
@@ -20,8 +19,7 @@ import { MetadataComponent } from './metadata/metadata.component';
     TabComponent,
     SkillsComponent,
     ExperienceComponent,
-    ProjectsComponent,
-    MetadataComponent
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
