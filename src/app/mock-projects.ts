@@ -208,5 +208,59 @@ export const PROJECTS: Project[] = [
         image: 'factpro/comprobantes_electronicos.png'
       },
     ]
+  },
+  {
+    id: 7,
+    name: 'WebSendaefact',
+    company: 'Senda TI Solutions',
+    image: 'websendaefact/image1.png',
+    description: 'Sistema ERP, que cuenta con módulos de: Finanzas, operaciones, ventas, producción, RRHH',
+    rol: 'Desarrollo y Mantenimiento',
+    functionalities: ['Desarrollo y manteniemiento del sistema'],
+    carousel: [
+      {
+        title: 'Login',
+        image: 'websendaefact/image1.png'
+      },
+      {
+        title: 'Listado de comprobantes',
+        image: 'websendaefact/image2.png'
+      },
+      {
+        title: 'Emisión de factura',
+        image: 'websendaefact/image3.png'
+      },
+      {
+        title: 'POS',
+        image: 'websendaefact/image4.png'
+      }
+    ]
+  },
+  {
+    id: 8,
+    name: 'MisFacturas',
+    company: 'Senda TI Solutions',
+    image: 'misfacturas/image1.png',
+    description: 'Sistema de facturación electrónica, que cuenta con módulos de: emisión de comprobantes, productos, clientes, entre otros',
+    rol: 'Desarrollo y Mantenimiento',
+    functionalities: ['Desarrollo y manteniemiento del sistema'],
+    carousel: [
+      {
+        title: 'Login',
+        image: 'misfacturas/image1.png'
+      },
+      {
+        title: 'Dashboard',
+        image: 'websendaefact/image2.png'
+      },
+      {
+        title: 'Listado de comprobantes',
+        image: 'misfacturas/image3.png'
+      },
+      {
+        title: 'Emisión de factura',
+        image: 'misfacturas/image4.png'
+      }
+    ]
   }
 ];
