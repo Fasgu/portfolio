@@ -251,7 +251,7 @@ export const PROJECTS: Project[] = [
       },
       {
         title: 'Dashboard',
-        image: 'websendaefact/image2.png'
+        image: 'misfacturas/image2.png'
       },
       {
         title: 'Listado de comprobantes',
