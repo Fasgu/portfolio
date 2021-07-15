@@ -3,5 +3,5 @@ export class Experience {
   company: string;
   period: string;
   position: string;
-  description: string;
+  descriptions: string[];
 }

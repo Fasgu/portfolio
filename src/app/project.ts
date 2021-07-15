@@ -6,6 +6,7 @@ export class Project {
   description: string;
   rol: string;
   functionalities: string[];
+  technologies: string;
   carousel: Carousel[];
 }
 

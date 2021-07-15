@@ -9,6 +9,7 @@ export const PROJECTS: Project[] = [
     description: 'Sitio web que congrega, sistematiza y facilita el acceso a la información relacionada con la Amazonía peruana, generada a partir de las actividades, acciones y agendas de las instituciones participantes en la Comisión Nacional Permanente Perú de la OTCA',
     rol: 'Colaboradora',
     functionalities: ['Buscador temático de documentos', 'Redifusión web'],
+    technologies: 'PHP, MYSQL, Javascript (Jquery), CSS (Bootstrap), HTML',
     carousel: [
       {
         title: 'Buscador temático',
@@ -34,6 +35,7 @@ export const PROJECTS: Project[] = [
       'Mejoras visuales en la metadata del Recurso Cartográfico',
       'Mejoras y validaciones en el intranet'
     ],
+    technologies: 'PHP, MYSQL, Javascript (Jquery), CSS (Bootstrap), HTML',
     carousel: [
       {
         title: 'Integración de nuevos estandares',
@@ -68,6 +70,7 @@ export const PROJECTS: Project[] = [
       'Desarrollo del sistema biométrico (desktop) para el control de asistencias de los pacientes, utilizando los lectores de huella: Digital Person 4500 y Suprema Biomini S20',
       'Desarrollo del sistema web, que cuenta con módulos como: alertas, pacientes, soporte de pares, programación de actividades, reportes'
     ],
+    technologies: 'PHP (Codeigniter), MYSQL, Java (Escritorio), Python, Git, Javascript (Jquery), CSS (Bootstrap), HTML.',
     carousel: [
       {
         title: 'Interfaces del sistema biométrico',
@@ -107,6 +110,7 @@ export const PROJECTS: Project[] = [
     description: 'Sistema Gerencial de Vacunas, para el control y seguimiento en la salud del niño',
     rol: 'Diseño y desarrollo',
     functionalities: ['Desarrollo del sistema web'],
+    technologies: 'PHP (Codeigniter), MYSQL, Git, Javascript (Jquery), CSS (Bootstrap), HTML, Java, Firebase',
     carousel: [
       {
         title: 'Login',
@@ -157,6 +161,7 @@ export const PROJECTS: Project[] = [
     company: 'Pormayorpe S.A',
     description: 'Plataforma pormayor.pe, megamercado de mayorista virtual',
     rol: 'Colaboradora',
+    technologies: 'PHP (Codeigniter), MYSQL, Git, Javascript (Jquery), CSS (Materialize), HTML',
     functionalities: ['Desarrollo de la parte inicial del proyecto'],
     carousel: [
       {
@@ -181,6 +186,7 @@ export const PROJECTS: Project[] = [
     image: 'factpro/image1.png',
     description: 'Sistema de facturación electrónica, con validación de SUNAT, OSE y PSE',
     rol: 'Desarrollo',
+    technologies: 'PHP (Laravel), MYSQL, Git, Javascript (Vue), CSS (Bootstrap), HTML, Linux',
     functionalities: ['Desarrollo y manteniemiento del sistema web, que cuentas con módulos como: Facturación electrónica, punto de venta, control de inventario, control de gastos, reportes'],
     carousel: [
       {
@@ -217,6 +223,7 @@ export const PROJECTS: Project[] = [
     description: 'Sistema ERP, que cuenta con módulos de: Finanzas, operaciones, ventas, producción, RRHH',
     rol: 'Desarrollo y Mantenimiento',
     functionalities: ['Desarrollo y manteniemiento del sistema'],
+    technologies: 'PHP (Laravel), MYSQL, SQL Server, Python (Django), Git, Javascript (Vue), CSS (Bootstrap), HTML, Linux',
     carousel: [
       {
         title: 'Login',
@@ -244,6 +251,7 @@ export const PROJECTS: Project[] = [
     description: 'Sistema de facturación electrónica, que cuenta con módulos de: emisión de comprobantes, productos, clientes, entre otros',
     rol: 'Desarrollo y Mantenimiento',
     functionalities: ['Desarrollo y manteniemiento del sistema'],
+    technologies: 'PHP (Laravel), MYSQL, Git, Javascript (React), CSS (Bootstrap), HTML, Linux',
     carousel: [
       {
         title: 'Login',

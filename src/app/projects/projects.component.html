@@ -54,6 +54,8 @@
               <ul class="list-inline item-details">
                 <li><strong>Empresa: </strong> {{selectedProject.company}}</li>
                 <li class="dropdown-divider"></li>
+                <li><strong>Tecnologías Utilizadas: </strong>{{selectedProject.technologies}}</li>
+                <li class="dropdown-divider"></li>
                 <li><strong>Funcionalidades Realizadas:</strong>
                   <ul>
                     <li *ngFor="let item of selectedProject.functionalities">

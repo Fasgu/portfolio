@@ -9,7 +9,9 @@
           </div>
           <div class="desc">
             <i><b>{{experience.company}}</b></i><br>
-            {{experience.description}}
+            <ul class="pl-0">
+              <li class="pb-0" *ngFor="let description of experience.descriptions" style="list-style: none;">{{description}}</li>
+            </ul>
           </div>
         </div>
       </li>
